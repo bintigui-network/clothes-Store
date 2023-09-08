@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <title>Carrinho</title>
+</head>
+<body>
+    
+    <section id="header">
+        <a href="index.html"><img src="img/bn-perfil.png" class="logo" alt="Logo Bintigui Network"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contato</a></li>
+                <li id="lg-bag"><a class="active"  href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section> <!----Header Section__________-----_________________------->
+
+    <section class="about-header" id="page-header">
+        <h2>#Seus pedidos</h2>
+        <p>Entre em contato para tirar suas duvidas!</p>
+    </section> <!----Home Page Section__________-----__________------->
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remover</td>
+                    <td>Imagem</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="/img/products/f1.jpg" alt=""></td>
+                    <td>Camiseta Astronaut</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="/img/products/f2.jpg" alt=""></td>
+                    <td>Camiseta Astronaut</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="/img/products/f3.jpg" alt=""></td>
+                    <td>Camiseta Astronaut</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Aplicar cupom</h3>
+            <div>
+                <input type="text" placeholder="Digite o cupom de desconto !">
+                <button class="normal">Aplicar</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Total do carrinho</h3>
+            <table>
+                <tr>
+                    <td>Subtotal do carrinho</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Envio</td>
+                    <td>Gratis</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong># 335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Checkout</button>
+        </div>
+    </section>
+    
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/bn-perfil.png" class="logo" alt="Logo Bintigui Network">
+            <h4>Contato</h4>
+            <p><strong>Endereco: </strong> Avenida paulista no centro de são Paulo</p>
+            <p><strong>Atendimento: </strong> 10:00 - 18:00, Segunda - Sexta</p>
+            <div class="follow">
+                <h4>Nossas Redes sociais</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Sobre nós</a>
+            <a href="#">Informacões sobre entrega</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Entre em Contato</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Login</a>
+            <a href="#">Veja nossos cartões</a>
+            <a href="#">Lista de desejos</a>
+            <a href="#">Localiza meu pedido</a>
+            <a href="#">Suporte</a>
+        </div>
+
+        <div class="col install">
+            <h4>Instale nosso App</h4>
+            <p>Baixe na Apple Store ou google play</p>
+            <div class="row">
+                <img src="/img/pay/app.jpg" alt="Apple Store">
+                <img src="/img/pay/play.jpg" alt="Google Play">
+            </div>
+            <p>Bandeiras de pagamento</p>
+            <img src="/img/pay/pay.png" alt="Bandeiras de pagamento">
+        </div>
+        <div class="copyright">
+            <p>&copy; Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+
+<script src="js/index.js"></script>   
+<script src="https://kit.fontawesome.com/7a96595943.js" crossorigin="anonymous"></script>
+</body>
+</html>
